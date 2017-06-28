@@ -19,12 +19,21 @@ Just add these line to your html file
 </script>
 
 ```
-Voila ,game on
+and place the below html tags where you want your cursor effect.
+
+```html
+<span id="text"></span>
+<span id="blinker">|</span>
+
+```
+
+
+its done,you may style the blinker and text as you want
 
 now lets look how to  add effects
 
 #### How to create effects
------
+---
 Parameters you can pass:
 
 ```javascript
