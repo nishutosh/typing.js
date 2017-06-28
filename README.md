@@ -19,3 +19,18 @@ Just add these line to your html file
 </script>
 
 ```
+Voila ,game on
+
+now lets look how to  add effects
+
+#### How to create effects
+
+Parameters you can pass:
+
+```javascript
+
+    var typing=Typing("hello how are you.",type_speed,blink_speed,backspace_speed,mainspanid,blinkerid)
+    typing();
+
+
+```
