@@ -14,7 +14,7 @@ Just add these line to your html file
 ```html
 <script src="typing.js"></script>
 <script>
-    var typing=Typing("hello how are you.",200,300,100)
+    var typing=Typing("hello how are you.")
     typing();
 </script>
 
