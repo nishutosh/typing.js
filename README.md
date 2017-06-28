@@ -24,7 +24,7 @@ Voila ,game on
 now lets look how to  add effects
 
 #### How to create effects
-
+-----
 Parameters you can pass:
 
 ```javascript
@@ -34,3 +34,8 @@ Parameters you can pass:
 
 
 ```
+
+lets look at thes Parameters
+1. **type_speed**: Typing speed in milliseconds. (default **100**).
+2. **blink_speed**: Cursor blink speed in milliseconds. (default **300**)
+3. **backspace_speed**: Cursor  speed in milliseconds while backspacing words. (default **100**)
