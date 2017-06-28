@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Typing | Demo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,100');
+        body{
+
+
+           color:#333;
+           background-repeat: no-repeat;
+           height: 100vh;
+        }
+        #blinker{
+          font-family:Raleway;
+          font-size: 30px;
+        }
+        #text{
+          font-family:Raleway;
+          font-size: 30px;
+        }
+        #demo{
+
+          margin:auto;
+          margin-top: 100px;
+          width: 50%;
+          text-align: center;
+        }
+        img{
+          display: block;
+        margin: auto;
+        }
+
+    </style>
+  </head>
+  <body>
+    <img src="main-img.png" alt="logo">
+
+    <div id="demo">
+        <span id="text"></span>
+        <span id="blinker">|</span>
+   </div>
+    <script src="typing.js"></script>
+    <script>
+    var a=Typing(" typing typing typing wait ...~2000~  @so please*so please*Try it out")
+    a();
+    </script>
+</html>
