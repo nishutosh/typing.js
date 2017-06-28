@@ -1,6 +1,6 @@
 ![Logo](main-img.png)
 
-Typing.js is a **library** which allows you to create a typing effect on your web page within seconds. You can **change lines**, **backspace** words, and put the typing on **hold** on .
+Typing.js is a **library** which allows you to create a typing effect on your web page within seconds. You can **change lines**, **backspace** words, and put the typing on **hold** on .Wanna see watch it [here](https://nishutosh.github.io/typing.js)
 
 now lets see
 
