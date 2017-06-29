@@ -59,13 +59,13 @@ You can add three functionalities in to your cursor
 ```
 
 3.backspace(```*backspace*```):This is backspace the cursor backspace works.It is easy to use just follow three steps:
-  1.Type you string that is to be backspaced.
+*.Type you string that is to be backspaced.
           `var typing=Typing("hey i want to backscpace apple");`
 
-  2.Then you write the text you want to backspace inside  `*` lets name it *back sentence*
+*.Then you write the text you want to backspace inside  `*` lets name it *back sentence*
           `var typing=Typing("hey i want to backscpace apple*apple* now apple is backspaced");`
-          
-  3.do what out for whitespaces while writing *back sentence* it should be exact copy of text it has been put behind` apple *apple*` may fail cause actual sentence has a white space while *back sentence* does not. Secondly do not include wait or next line in *back sentence*        
+
+*.do what out for whitespaces while writing *back sentence* it should be exact copy of text it has been put behind` apple *apple*` may fail cause actual sentence has a white space while *back sentence* does not. Secondly do not include wait or next line in *back sentence*        
 
 Parameters you can pass:
 
