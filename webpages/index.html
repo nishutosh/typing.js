@@ -5,68 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Typing | Demo</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,100');
-        body{
-
-
-           color:#333;
-           background-repeat: no-repeat;
-           height: 100vh;
-        }
-        #blinker{
-          font-family:Raleway;
-          font-size: 30px;
-        }
-        #text{
-          font-family:Raleway;
-          font-size: 30px;
-        }
-        #demo{
-         height: 150px;;
-          margin:auto;
-          margin-top: 30px;
-          width: 90%;
-          text-align: center;
-        }
-        img{
-          display: block;
-        margin: auto;
-        width: 55%;
-        }
-        #try{
-          font-family:Raleway;
-         opacity:0.8;
-          width: 200px;
-          margin: auto;
-          margin-top:20px;
-          text-align: center;
-          background-color: #43aaff;
-          color:white;
-          padding:7px;
-          font-size:20px;
-          border-radius: 4px;
-
-        }
-     #try:hover{
-
-       cursor:pointer;
-       background-color:#0089fb;
-     }
-
-      i{
-        color:white;
-      }
-      #githubtext{
-        font-size:19px;
-        margin-left: 4px;
-
-      }
-      a{
-        text-decoration: none;
-      }
-    </style>
+    <title>Typing</title>
+    <link href="main.css" rel="stylesheet">
   </head>
   <body>
     <img src="../images/main-img.png" alt="logo">
@@ -80,7 +20,7 @@
      <i class="fa fa-github-alt fa-1x" aria-hidden="true"></i>
 <span id="githubtext">Try it out</span>
    </div></a>
-    <script src="typing.js"></script>
+    <script src="../typing/typing.min.js"></script>
     <script>
     var a=Typing("  This is typing dot js~500~* dot js*.js at work.~300~@With this you can create typing effect on @your webpage within ~1000~ seconds.")
     a();
