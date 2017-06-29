@@ -1,6 +1,6 @@
 ![Logo](images/main-img.png)
 
-Typing.js is a **library** which allows you to create a typing effect on your web page within seconds. You can **change line**, **backspace** words, and put the typing on **hold** on .Wanna see watch it [here](https://nishutosh.github.io/typing.js)
+Typing.js is a **library** which allows you to create the most realistic typing effect on your web page within seconds. You can **change line**, **backspace** words, and put the typing on **hold** on .Wanna see watch it [here](https://nishutosh.github.io/typing.js)
 
 
 
@@ -34,10 +34,10 @@ its done,you may style the blinker and text as you want
 
 
 #### How to create effects
--------------------------------------------------------------------------------
+---
 You can add three functionalities in to your cursor
 
-1.wait(~200~): It makes cursor to **stay** at that place for **200ms**.
+1.wait(```~200~```): It makes cursor to **stay** at that place for **200ms**.
 
 
 ```javascript
@@ -48,6 +48,24 @@ You can add three functionalities in to your cursor
 
 ```
 
+2.next line(```@```): It makes the cursor to move on to the next line.
+
+```javascript
+
+    var typing=Typing("this first line @this second line");
+    typing();
+
+
+```
+
+3.backspace(```*backspace*```):This is backspace the cursor backspace works.It is easy to use just follow three steps:
+  1.Type you string that is to be backspaced.
+          `var typing=Typing("hey i want to backscpace apple");`
+
+  2.Then you write the text you want to backspace inside  `*` lets name it *back sentence*
+          `var typing=Typing("hey i want to backscpace apple*apple* now apple is backspaced");`
+          
+  3.do what out for whitespaces while writing *back sentence* it should be exact copy of text it has been put behind` apple *apple*` may fail cause actual sentence has a white space while *back sentence* does not. Secondly do not include wait or next line in *back sentence*        
 
 Parameters you can pass:
 
