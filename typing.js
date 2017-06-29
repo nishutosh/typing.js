@@ -36,7 +36,7 @@ for(let i=0;i<sin.length+1;i++){
 
      }
      else if(sin[i]=="*"){
-     let sen_back=wordsreplace(i)
+       let sen_back=wordsreplace(i)
        back_space(i,sen_back[1],backspace_speed);
        i=sen_back[0];
      }
@@ -83,46 +83,35 @@ function wordsreplace(a){
 
 
 function back_space(a,text,speed){
-  let ln=text.length-1;
-  let ac=a-1;
-
-  while(ln>=0){
-
+   a=text.length+1;
+  let index=text.length-1;
+  console.log(index)
+  while(index>=0){
       time_order=time_order+speed;
+      console.log(text[index]);
+       (function(word){
+                setTimeout(function(){
+                  console.log(word+" "+sout[sout.length-1])
+                      if(word==sout[sout.length-1]){
+                       sout=sout.substring(0, sout.length -1);
+                         mainspan.innerHTML=sout;}
+                      else if(sout[sout.length-1]==">") {
 
-   if(text[ln]==sin[ac]){
-    if(text[ln]=="@"){
-
-
-
-     setTimeout(function(){
-
-            console.log("why2");
-           sout=sout.substring(0, sout.length -4);
-           mainspan.innerHTML=sout;
-            },time_order)
-
- }
+                        sout=sout.substring(0, sout.length -5);
+                          mainspan.innerHTML=sout;}
 
 
+                      },time_order)
+            })(text[index]);
 
-  else{
-                   setTimeout(function(){
 
-
-                  console.log(text[ln]+" "+sout);
-                   sout=sout.substring(0, sout.length - 1);
-                   mainspan.innerHTML=sout;
-   },time_order)}
+  index--;
 
   }
 
-  ln--;
-  ac--;
 
 
 
-}
 
 }
 
