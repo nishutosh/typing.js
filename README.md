@@ -1,8 +1,8 @@
 ![Logo](main-img.png)
 
-Typing.js is a **library** which allows you to create a typing effect on your web page within seconds. You can **change lines**, **backspace** words, and put the typing on **hold** on .Wanna see watch it [here](https://nishutosh.github.io/typing.js)
+Typing.js is a **library** which allows you to create a typing effect on your web page within seconds. You can **change line**, **backspace** words, and put the typing on **hold** on .Wanna see watch it [here](https://nishutosh.github.io/typing.js)
 
-now lets see
+
 
 
 
@@ -33,7 +33,7 @@ its done,you may style the blinker and text as you want
 now lets look how to  add effects
 
 #### How to create effects
----
+-------------------------
 Parameters you can pass:
 
 ```javascript
