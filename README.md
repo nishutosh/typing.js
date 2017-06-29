@@ -9,7 +9,7 @@ Typing.js is a **library** which allows you to create a typing effect on your we
 
 ### How to see it dancing on you page
 
-First clone the  ```typing/typing.min.js```
+First get the  ```typing/typing.min.js```
 
 then, just add these line to your html file
 
@@ -32,7 +32,6 @@ and place the below html tags where you want your cursor effect.
 
 its done,you may style the blinker and text as you want
 
-now lets look how to  add effects
 
 #### How to create effects
 -------------------------
