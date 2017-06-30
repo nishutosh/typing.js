@@ -35,7 +35,7 @@
       color:white;
       padding:7px;
       font-size:20px;
-      border-radius: 4px;
+     
 
     }
  #try:hover{
@@ -49,7 +49,7 @@
   }
   #githubtext{
     font-size:19px;
-    margin-left: 4px;
+    margin-left: 7px;
 
   }
   a{
@@ -61,6 +61,10 @@
 
 @media  screen and (max-width: 500px) {
       #text{
-          font-size: 25px;
+          font-size: 22px;
+          
       }
+    img{
+        width: 100%;
+    }
   }
