@@ -9,7 +9,7 @@ Typing.js is a pure javascript **library** which allows you to emulate the most 
 
 ### Getting started
 
-* First get the  ```typing/typing.min.js``` file
+* Firsty, get the  ```typing/typing.min.js``` file
 
 * Then, just add these lines to your html file
 
@@ -30,12 +30,12 @@ Typing.js is a pure javascript **library** which allows you to emulate the most 
   ```
 
 
-its done, you may style your blinker and text as you want
+its done, you may style your blinker and text now.
 
 
-#### How to create effects
----
-You can add three functionalities in to your cursor:
+#### How to create effects:
+
+You can add three functionalities to your cursor:
 
 1.Delay(```~1000~```): It makes cursor to **stay** at that place for **1000ms**.
 
@@ -79,7 +79,7 @@ Secondly do not include wait or next line in *backsentence*. Like `apple*ap@ple*
 
 ```
 
-lets look at thes Parameters:
+lets look at these Parameters:
 1. **typing speed**: Typing speed in milliseconds. (default *100*).
 2. **blink speed**: Cursor blink speed in milliseconds. (default *300*)
 3. **backspace speed**: Cursor  speed in milliseconds while backspacing words. (default *100*)
