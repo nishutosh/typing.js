@@ -85,3 +85,12 @@ lets look at these Parameters:
 3. **backspace speed**: Cursor  speed in milliseconds while backspacing words. (default *100*)
 4. **textspanid**:Your text span id name. (default *text*)
 5. **blinkerspanid**:Your blinker span id name. (default *blinker*)
+
+### Contribute :
+
+It would be great to have your contribution in this project.
+
+Just simply follow these rules while contributing:
+ * Always start with writing an **issue** before making a pull request.
+ * Try to make a pull request in the **development branch** not in the master branch of this project.
+
