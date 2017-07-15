@@ -31,7 +31,7 @@
       margin: auto;
       margin-top:20px;
       text-align: center;
-      background-color: #43aaff;
+      background-color:springgreen;
       color:white;
       padding:7px;
       font-size:20px;
@@ -41,7 +41,7 @@
  #try:hover{
 
    cursor:pointer;
-   background-color:#0089fb;
+   background-color:#00b75b;
  }
 
   i{
