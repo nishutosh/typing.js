@@ -1,15 +1,15 @@
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:400,100');
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,100');
     body{
        color:#333;
        background-repeat: no-repeat;
        height: 100vh;
     }
     #blinker{
-      font-family:Raleway;
+      font-family:"Raleway",Verdana;
       font-size: 30px;
     }
     #text{
-      font-family:Raleway;
+      font-family:"Raleway",Verdana;
       font-size: 30px;
     }
     #demo{
@@ -24,24 +24,34 @@
     margin: auto;
     width: 55%;
     }
-    #try{
-      font-family:Raleway;
+    .btn-github{
+      font-family:"Open Sans",Verdana;
      opacity:0.8;
       width: 200px;
       margin: auto;
       margin-top:20px;
       text-align: center;
-      background-color:springgreen;
-      color:white;
-      padding:7px;
-      font-size:20px;
+      background-color:#2b2b2b;
+      color:#fff;
+      padding:10px 15px ;
+      font-size:17px;
+      font-weight: 600;
+      border-radius:10px;
+      display: inherit;
      
 
     }
- #try:hover{
+ .btn-github:hover{
 
    cursor:pointer;
-   background-color:#00b75b;
+   background-color:black;
+   color:white;
+   text-decoration: none;
+ }
+ .text{
+ 
+  margin-left: 5px;
+
  }
 
   i{

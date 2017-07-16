@@ -1,29 +1,41 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Typing</title>
-    <link href="site/main.css" rel="stylesheet">
-  </head>
-  <body>
-    <img src="images/main-img.png" alt="logo">
+    <title>Typing Demo</title>
+    <link href="site/css/main.css" rel="stylesheet">
+    <link href="site/css/font-awesome.css." rel="stylesheet">
+    <link href="site/css/bootstrap.min.css." rel="stylesheet">
+</head>
 
-
+<body>
+<div class="container">
+<div class="row">
+    <img src="site/images/main-img.png" class="img-responsive" alt="logo">
+    </div>
+    <div class="row">
+    <div class="col-md-12">
     <div id="demo">
         <span id="text"></span>
         <span id="blinker">|</span>
-   </div>
-   <a href="https://github.com/nishutosh/typing.js"><div id="try">
-    <i class="fa fa-github" aria-hidden="true"></i>
-
-<span id="githubtext">Try it out</span>
-   </div></a>
-    <script src="typing/typing.min.js"></script>
+    </div>
+    </div>
+    </div>
+    <div class="row"><div class="col-md-12">
+   
+    <a class="btn-github" href="https://github.com/nishutosh/typing.js">
+        <span class="fa fa-github-alt"></span>
+        <span class="text"> Try it out</span>
+    </a>
+    </div>
+</div>
+</div>
+    <script src="typing/typing.js"></script>
     <script>
-    var a=Typing("  This is typing dot js~500~* dot js*~500~.js at work.~300~@With this you can create typing effect on @your webpage within ~1000~ seconds.")
+    var a = Typing("This is typing dot js~500~* docct ssasjs*~500~.js at work.~300~@With this you can create typing effect on @your webpage within ~1000~ seconds.")
     a();
     </script>
     <script src="https://use.fontawesome.com/4b130dc870.js"></script>
