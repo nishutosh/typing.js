@@ -1,4 +1,4 @@
-![Logo](images/main-img.png)
+![Logo](site/images/main-img.png)
 
 Typing.js is a pure javascript **library** which allows you to emulate the most realistic typing effect on your web page in the fastest way possible. You can **change line**, **backspace** words, and put  typing on **hold**. Wanna see watch it [here](https://nishutosh.github.io/typing.js)
 
