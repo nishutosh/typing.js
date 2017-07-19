@@ -1,0 +1,80 @@
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Raleway:400,100');
+    body {
+        color: #333;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    #blinker {
+        font-family: "Raleway", Verdana;
+        font-size: 30px;
+    }
+    
+    #text {
+        font-family: "Raleway", Verdana;
+        font-size: 30px;
+    }
+    
+    #demo {
+        height: 150px;
+        ;
+        margin: auto;
+        margin-top: 30px;
+        width: 90%;
+        text-align: center;
+    }
+    
+    img {
+        display: block;
+        margin: auto;
+        width: 55%;
+    }
+    
+    .btn-github {
+        font-family: "Open Sans", Verdana;
+        opacity: 0.8;
+        width: 200px;
+        margin: auto;
+        margin-top: 20px;
+        text-align: center;
+        background-color: #2b2b2b;
+        color: #fff;
+        padding: 10px 15px;
+        font-size: 17px;
+        font-weight: 600;
+        border-radius: 10px;
+        display: inherit;
+    }
+    
+    .btn-github:hover {
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .text {
+        margin-left: 5px;
+    }
+    
+    i {
+        color: white;
+    }
+    
+    #githubtext {
+        font-size: 19px;
+        margin-left: 7px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    @media screen and (max-width: 500px) {
+        #text {
+            font-size: 22px;
+        }
+        img {
+            width: 100%;
+        }
+    }
