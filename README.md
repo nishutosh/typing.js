@@ -67,7 +67,7 @@ You can add three functionalities to your cursor:
 
 **Note**:Let me name the content to be backspaced  as  *backsentence* for the ease of explaining it. 
 Firstly do watch out for whitespaces while writing *backsentence*. It should be exact copy of text that it has to backspace. Like for eg ` apple *apple*` will fail because actual sentence has a white space in the end,  while *backsentence* does not.
-Secondly do not include wait or next line in *backsentence*. Like `apple*ap@ple*` would also fail.      
+Secondly do not include wait or next line in *backsentence*. Like `apple*ap@ple*` would also fail this.      
 
 ### Parameters :
 
