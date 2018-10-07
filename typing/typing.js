@@ -1,5 +1,6 @@
 function Typing(string, type_speed = 100, blink_speed = 300, backspace_speed = 100, mainspanid = "text", blinkerid = "blinker") {
     return function() {
+        
         let sin = string;
         let sout = "";
         let mainspan = document.getElementById(mainspanid);
